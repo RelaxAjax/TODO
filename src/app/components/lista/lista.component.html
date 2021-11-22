@@ -1,3 +1,4 @@
 <ul>
+    <!--Despliega los contenidos del array lista a traves de un ngFor y le asigna a cada uno un indice i que utiliza para asignarles el estilo-->
     <li *ngFor="let lista of lista; let i = index" [ngStyle] = "{'text-decoration': estilos[i]}" (click)="cambiarEstilo(i)">{{lista}}</li>
 </ul>
