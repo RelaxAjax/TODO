@@ -24,7 +24,6 @@ export class ListaComponent implements OnInit {
     }else{
       this.estilos[item] = "";
     }
-    console.log(item)
   }
 
   masItem(texto: string){
